@@ -1,0 +1,60 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400..700&display=swap');
+
+.domine-<uniquifier> {
+font-family: "Domine", serif;
+font-optical-sizing: auto;
+font-weight: weight;
+font-style: normal;
+}
+
+
+body{
+margin: 0;
+padding: 0;
+display:flex;
+justify-content: center;
+height: 100vh;
+background-color:pink;
+}
+
+.baner{
+width: 800px;
+height: 400px;
+background-image: url(https://media.istockphoto.com/id/1323033882/es/vector/pies-de-ni%C3%B1a.jpg?s=1024x1024&w=is&k=20&c=JhNmm3b3dyr_29EzGm1WBJdTVqhLQSRPXRnTO9mhJkY=);
+background-size: cover;
+background-size: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 80px;
+box-sizing: border-box;
+color: black;
+background-repeat: no-repeat;
+text-shadow: 2px 2px 4px pink;(0,0,0,0.5)
+
+
+}
+
+.baner h1{
+font-size: 4.5em;
+margin-bottom:20px;
+}
+.baner h2{
+    font-size: 2.5em;
+    margin-bottom:20px;
+    
+
+}
+
+.baner button{
+
+    padding: 10px 20px;
+    font-size: 1em;
+    color: blueviolet;
+    background-color: white;
+    border-radius: 5px;
+    cursor:pointer;
+
+}

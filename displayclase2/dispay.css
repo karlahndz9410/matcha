@@ -1,0 +1,18 @@
+.container{
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid #333;
+    padding: 20px;
+}
+
+.inline-element {
+background-color: pink;
+color: white;
+padding: 5px;
+}
+
+.block-element{
+background-color: aqua;
+color: white;
+
+}
