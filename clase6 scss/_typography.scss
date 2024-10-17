@@ -1,0 +1,17 @@
+h1,h2.h3,h4,h5,h6 {
+    font-family: $font-family-heading;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    font-family: $font-size-h1;
+}
+
+h2 {
+    font-family: $font-size-h2;
+}
+
+.section-title{
+    text-align: center;
+    margin-bottom: 2rem;
+}

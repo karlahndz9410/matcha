@@ -1,0 +1,38 @@
+
+*{
+    padding: 0;
+}
+.container {
+    width: 400px;
+    background-color: gray;
+    padding: 100px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container h2{
+    color: white;
+    text-align: center;
+}
+
+.container .input{
+    background-color: rgba(#ccc6c6);
+    color: white;
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+
+}
+
+.container .cajatext{
+    color: white;
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    border: black;
+    border-radius: 3px;
+
+}
+   

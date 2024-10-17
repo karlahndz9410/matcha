@@ -1,0 +1,72 @@
+.nav{
+    &__list{
+        @include flex-center;
+        list-style: none;
+    }
+
+    &__item {
+        margin: 0 1rem;
+        color: white;
+        text-decoration: none;
+        transition:color 0.3s ease ;
+
+        &:hover{
+            color: $secundary-color;
+        }
+
+    }
+}
+
+.hero {
+    text-align: center;
+    padding: 4rem 0;
+
+    &__title{
+        color:$primary-color;
+        margin-bottom: 1rem;
+    }
+
+    &__subtitle{
+        color:$secondary-color;
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+    }
+}
+
+.btn{
+    @include button ($secondary-color, white);
+
+  &--prymary  {
+        @include button ($primary-color, white);
+    }
+}
+
+.product-grid{
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax (250px,1fr));
+
+}
+
+.product-card{
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    text-align: center;
+
+    &__image{
+        width: 100%;
+        height: auto;
+    }
+
+    &__title {
+        margin: 1rem 0;
+    }
+
+    &__price {
+        font-weight: bold;
+        color:$secondary-color;
+        margin-bottom: 1rem;
+    }
+}
